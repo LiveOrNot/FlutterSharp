@@ -1,0 +1,47 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32708.82
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FlutterSharp", "FlutterSharp\FlutterSharp.csproj", "{EBED06A6-A26C-4F36-82D0-EF1C91AC9D43}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "doc", "doc", "{6A361BF4-4439-4B36-AF73-6DAE799CA780}"
+	ProjectSection(SolutionItems) = preProject
+		.gitattributes = .gitattributes
+		.gitignore = .gitignore
+		20220918192345.png = 20220918192345.png
+		20220918192407.png = 20220918192407.png
+		LICENSE = LICENSE
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{D47B1C47-7C0F-4DCC-BFFE-7CBC82432257}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FlutterSharp.Wpf", "FlutterSharp.Wpf\FlutterSharp.Wpf.csproj", "{6ACE4E3E-1C6C-4404-9868-EEDAD9314916}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EBED06A6-A26C-4F36-82D0-EF1C91AC9D43}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EBED06A6-A26C-4F36-82D0-EF1C91AC9D43}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EBED06A6-A26C-4F36-82D0-EF1C91AC9D43}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EBED06A6-A26C-4F36-82D0-EF1C91AC9D43}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6ACE4E3E-1C6C-4404-9868-EEDAD9314916}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6ACE4E3E-1C6C-4404-9868-EEDAD9314916}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6ACE4E3E-1C6C-4404-9868-EEDAD9314916}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6ACE4E3E-1C6C-4404-9868-EEDAD9314916}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{EBED06A6-A26C-4F36-82D0-EF1C91AC9D43} = {D47B1C47-7C0F-4DCC-BFFE-7CBC82432257}
+		{6ACE4E3E-1C6C-4404-9868-EEDAD9314916} = {D47B1C47-7C0F-4DCC-BFFE-7CBC82432257}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BA97FC67-2DDD-4E8E-97A8-8C1D73BD752D}
+	EndGlobalSection
+EndGlobal
